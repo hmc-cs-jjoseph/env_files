@@ -49,9 +49,10 @@ set mouse=a		" Enable mouse usage (all modes)
 set shiftwidth=2	" default indent size
 set autoindent		" Turn on autoindent
 set smartindent		" make autoindent smartish i guess
-set tabstop=8		" make tab widths work right
+set tabstop=2		" make tab widths work right
 set backspace=2		" make backspace a bit more intuitive
 set number		" turn on line number
+set relativenumber	" turn on relative line numbering
 set cpo-=<
 set laststatus=2	" keep status line open always
 
