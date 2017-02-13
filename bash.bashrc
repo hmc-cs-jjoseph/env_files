@@ -53,3 +53,4 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 	}
 fi
 alias hdh_connect='sudo ifconfig eth0:0 169.254.1.1 netmask 255.255.0.0 up'
+alias ps='ps -u $USERNAME'
